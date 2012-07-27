@@ -48,7 +48,6 @@ system/lib/libcaps.so
 system/vendor/firmware/mfc_fw.bin 
 system/lib/hw/gps.exynos4.so 
 system/lib/egl/libEGL_mali.so 
-system/lib/egl/libGLES_android.so 
 system/lib/egl/libGLESv1_CM_mali.so 
 system/lib/egl/libGLESv2_mali.so 
 system/lib/hw/gralloc.exynos4.so 
