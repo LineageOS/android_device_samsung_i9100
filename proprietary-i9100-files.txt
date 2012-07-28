@@ -2,6 +2,7 @@ system/bin/rild
 system/lib/libril.so 
 system/lib/libsec-ril.so 
 system/lib/libsecril-client.so 
+system/lib/hw/gps.exynos4.so
 system/bin/bcm4330B1.hcd 
 system/etc/wifi/bcm4330_apsta.bin 
 system/etc/wifi/bcm4330_mfg.bin 
