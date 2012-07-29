@@ -66,4 +66,3 @@ system/lib/libtvoutinterface.so
 system/lib/libtvoutservice.so 
 system/lib/hw/hwcomposer.smdk4210.so 
 system/vendor/firmware/libpn544_fw.so 
-system/lib/libakm.so

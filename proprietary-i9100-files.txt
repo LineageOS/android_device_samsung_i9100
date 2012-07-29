@@ -19,4 +19,5 @@ system/etc/wifi/nvram_net.txt_murata
 system/etc/wifi/nvram_net.txt_murata_AU 
 system/etc/wifi/nvram_net.txt_murata_IL 
 system/etc/wifi/nvram_net.txt_murata_SG 
-system/etc/wifi/nvram_net.txt_murata_TN 
+system/etc/wifi/nvram_net.txt_murata_TN
+system/lib/libakm.so
