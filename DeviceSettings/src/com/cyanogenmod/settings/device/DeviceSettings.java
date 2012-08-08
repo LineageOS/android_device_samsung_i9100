@@ -68,8 +68,8 @@ public class DeviceSettings extends FragmentActivity {
         mTabsAdapter = new TabsAdapter(this, mViewPager);
         mTabsAdapter.addTab(bar.newTab().setText(R.string.category_radio_title),
                 RadioFragmentActivity.class, null);
-        mTabsAdapter.addTab(bar.newTab().setText(R.string.category_mdnie_title),
-                mDNIeFragmentActivity.class, null);
+        mTabsAdapter.addTab(bar.newTab().setText(R.string.category_screen_title),
+                ScreenFragmentActivity.class, null);
         mTabsAdapter.addTab(bar.newTab().setText(R.string.category_sensors_title),
                 SensorsFragmentActivity.class, null);
         mTabsAdapter.addTab(bar.newTab().setText(R.string.category_haptic_title),

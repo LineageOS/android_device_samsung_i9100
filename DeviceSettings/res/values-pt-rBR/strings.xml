@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Config. Galaxy S II</string>
+
+    <string name="category_screen_title">Tela</string>
     <string name="screen_colors_title">Cores</string>
-    <string name="category_mdnie_title">Tela</string>
     <string name="mdnie_scenario_title_head">Cenário</string>
     <string name="mdnie_scenario_summary_head">Define o Cenário mDNIe</string>
     <string name="mdnie_mode_title_head">Modo</string>

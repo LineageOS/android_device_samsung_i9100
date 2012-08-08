@@ -34,7 +34,7 @@ import com.cyanogenmod.settings.device.R;
 public class DockFragmentActivity extends PreferenceFragment {
 
     private static final String PREF_ENABLED = "1";
-    private static final String TAG = "GalaxyS2Parts_General";
+    private static final String TAG = "GalaxyS2Settings_Dock";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

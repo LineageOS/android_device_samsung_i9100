@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">Paramètres Galaxy S II</string>
 
-    <string name="category_mdnie_title">Ecran</string>
+    <string name="category_screen_title">Ecran</string>
     <string name="screen_colors_title">Couleurs</string>
     <string name="mdnie_scenario_title_head">Scénario</string>
     <string name="mdnie_scenario_summary_head">Définit le scénario mDNIe</string>

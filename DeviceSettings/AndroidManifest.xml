@@ -23,7 +23,7 @@
             </intent-filter>
         </receiver>
       
-        <activity android:name=".mDNIeFragmentActivity" />
+        <activity android:name=".ScreenFragmentActivity" />
         <activity android:name=".RadioFragmentActivity" />
         
     </application>

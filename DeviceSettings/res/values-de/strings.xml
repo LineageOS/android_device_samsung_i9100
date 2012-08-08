@@ -2,8 +2,8 @@
 <resources>
     <string name="app_name">Galaxy S II Einstellungen</string>
 
+    <string name="category_screen_title">Bildschirm</string>
     <string name="screen_colors_title">Farben</string>
-    <string name="category_mdnie_title">Bildschirm</string>
     <string name="mdnie_scenario_title_head">Szenario</string>
     <string name="mdnie_scenario_summary_head">Wähle das mDNIe Szenario</string>
     <string name="mdnie_mode_title_head">Modus</string>

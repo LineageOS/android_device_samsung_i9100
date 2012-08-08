@@ -2,8 +2,8 @@
 <resources>
     <string name="app_name">Galaxy S II-asetukset</string>
 
+    <string name="category_screen_title">Näyttö</string>
     <string name="screen_colors_title">Värit</string>
-    <string name="category_mdnie_title">Näyttö</string>
     <string name="mdnie_scenario_title_head">Skenaario</string>
     <string name="mdnie_scenario_summary_head">Vaihda mDNIe-skenaario</string>
     <string name="mdnie_mode_title_head">Tila</string>

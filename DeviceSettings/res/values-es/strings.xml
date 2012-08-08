@@ -6,7 +6,7 @@
     <string name="hspa_title_head">HSPA</string>
     <string name="hspa_summary_head">Activar HSDPA/HSUPA</string>
 
-    <string name="category_mdnie_title">Pantalla</string>
+    <string name="category_screen_title">Pantalla</string>
     <string name="screen_colors_title">Colores</string>
     <string name="mdnie_scenario_title_head">Escenario</string>
     <string name="mdnie_scenario_summary_head">Establecer el escenario mDNIe</string>
