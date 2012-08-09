@@ -26,11 +26,13 @@
     <string name="touchkey_timeout_summary_head">Delay after a keypress before backlight turns off</string>
 
     <string name="category_sensors_title">Sensors</string>
-    <string name="gyro_subcat_title">Gyroscope</string>
-    <string name="use_gyro_calibration_title_head">Use calibration data</string>
-    <string name="use_gyro_calibration_summary_head">Use the gyroscope calibration values. Do a calibration after checking this!</string>
-    <string name="calibrate_gyro_title_head">Calibrate</string>
-    <string name="calibrate_gyro_summary_head">Put your phone on a flat surface, and press this to calibrate</string>
+    <string name="accelerometer_subcat_title">Accelerometer</string>
+    <string name="use_accelerometer_calibration_title_head">Use calibration data</string>
+    <string name="use_accelerometer_calibration_summary_head">Use the accelerometer calibration values. Do a calibration after checking this!</string>
+    <string name="calibrate_accelerometer_title_head">Calibrate</string>
+    <string name="calibrate_accelerometer_summary_head">Put your phone on a flat surface, and press this to calibrate</string>
+    <string name="accelerometer_dialog_head">Calibration done</string>
+    <string name="accelerometer_dialog_message">The sensor has been successfully calibrated.</string>
 
     <string name="category_haptic_title">Haptic</string>
     <string name="vibrator_subcat_title">Vibrator</string>
@@ -42,7 +44,7 @@
     <string name="hspa_summary_head">Enable HSDPA/HSUPA</string>
 
     <string name="category_dock_title">Dock</string>
-    <string name="dockaudio_subcat_title">DOCK AUDIO</string>
+    <string name="dockaudio_subcat_title">Audio</string>
     <string name="use_dock_audio_title_head">Use Dock USB Audio</string>
     <string name="use_dock_audio_summary_head">Use the passive audio out on the dock</string>
 </resources>
