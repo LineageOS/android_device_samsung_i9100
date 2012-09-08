@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAXX///m0\u003d",
+        "filename": "DeviceSettings/res/values-es/arrays.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2012-09-08T12:03:38Z",
+      "side": 1,
+      "message": "All \"Video\" -\u003e \"Vídeo\"\n\"Frio\" -\u003e \"Frío\"",
+      "revId": "a080c63b228e6b7de5c4772b4454a58ea0a76a23",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAXX///mw\u003d",
+        "filename": "DeviceSettings/res/values-es/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2012-09-08T12:03:38Z",
+      "side": 1,
+      "message": "Establecer la...",
+      "revId": "a080c63b228e6b7de5c4772b4454a58ea0a76a23",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAXX///ms\u003d",
+        "filename": "DeviceSettings/res/values-es/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2012-09-08T12:03:38Z",
+      "side": 1,
+      "message": "... esté ...",
+      "revId": "a080c63b228e6b7de5c4772b4454a58ea0a76a23",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
