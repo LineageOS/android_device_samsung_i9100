@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAXX//+2Q\u003d",
+        "filename": "DeviceSettings/res/values-fi/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 434
+      },
+      "writtenOn": "2012-09-11T14:56:12Z",
+      "side": 1,
+      "message": "space at the end of the line.",
+      "revId": "f74bf2aa22eefb6ff529eafcf3ddccd9364a6fcd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
