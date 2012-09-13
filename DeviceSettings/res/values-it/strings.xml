@@ -30,7 +30,7 @@
     <string name="use_accelerometer_calibration_title_head">Usa dati di calibrazione</string>
     <string name="use_accelerometer_calibration_summary_head">Usa i valori di calibrazione dell\'accelerometro. Effettuare una calibrazione dopo aver attivato questa impostazione!</string>
     <string name="calibrate_accelerometer_title_head">Calibrazione</string>
-    <string name="calibrate_accelerometer_summary_head">Posizionare il telefono su una superficie orizzontale e premere per effettuare la calibrazione</string>
+    <string name="calibrate_accelerometer_summary_head">Posizionare il telefono su una superficie orizzontale piana e premere per effettuare la calibrazione</string>
     <string name="accelerometer_dialog_head">Calibrazione effettuata</string>
     <string name="accelerometer_dialog_message">Il sensore è stato correttamente calibrato.</string>
 
