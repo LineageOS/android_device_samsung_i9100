@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAYX///ag\u003d",
+        "filename": "DeviceSettings/res/values-it/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 3184
+      },
+      "writtenOn": "2012-09-14T18:44:37Z",
+      "side": 1,
+      "message": "Schermo?",
+      "revId": "1d8dfd26e859defb5ccd23e161d2c3040b250742",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
