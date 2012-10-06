@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAY3///8E\u003d",
+        "filename": "proprietary-common-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 2874
+      },
+      "writtenOn": "2012-10-06T16:30:14Z",
+      "side": 1,
+      "message": "SPACE! :)",
+      "revId": "e2f967e8c1defbf55277476d3330b9ad5ddc0f39",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
