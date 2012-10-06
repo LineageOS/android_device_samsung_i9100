@@ -52,7 +52,7 @@ system/lib/egl/libGLESv2_mali.so
 system/lib/hw/gralloc.exynos4.so 
 system/lib/libMali.so 
 system/lib/libUMP.so 
-system/lib/libion.so 
+system/lib/libsecion.so
 system/bin/bintvoutservice 
 system/lib/libTVOut.so 
 system/lib/libcec.so 
