@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAY3///7g\u003d",
+        "filename": "proprietary-files.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 523
+      },
+      "writtenOn": "2012-10-06T17:27:45Z",
+      "side": 1,
+      "message": "libsecion, also in product packages",
+      "revId": "752cefc10959eacac297aef56015a42ad5317a67",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
