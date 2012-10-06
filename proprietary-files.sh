@@ -65,7 +65,7 @@ PRODUCT_PACKAGES += \\
 	libhdmi \\
 	libhdmiclient \\
     libmediayamahaservice \\
-	libsamsungion
+	libsecion
 
 PRODUCT_COPY_FILES += \\
     vendor/__VENDOR__/__COMMON__/proprietary/system/lib/hw/camera.exynos4.so:system/lib/hw/vendor-camera.exynos4.so \\
@@ -111,9 +111,9 @@ LOCAL_MODULE_PATH := \$(TARGET_OUT)/lib
 include \$(BUILD_PREBUILT)
 
 include \$(CLEAR_VARS)
-LOCAL_MODULE := libsamsungion
+LOCAL_MODULE := libsecion
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := system/lib/libion.so
+LOCAL_SRC_FILES := system/lib/libsecion.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
