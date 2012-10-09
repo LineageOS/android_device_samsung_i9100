@@ -46,5 +46,5 @@
     <string name="category_dock_title">Dock</string>
     <string name="dockaudio_subcat_title">Audio</string>
     <string name="use_dock_audio_title_head">USB-Dock Audio</string>
-    <string name="use_dock_audio_summary_head">Passive Audio-Ausgabe des USB-Docks verwenden</string>
+    <string name="use_dock_audio_summary_head">Audio-Ausgabe des USB-Docks verwenden</string>
 </resources>
