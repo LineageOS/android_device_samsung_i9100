@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAY3//+i0\u003d",
+        "filename": "DeviceSettings/res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2012-10-12T00:10:48Z",
+      "side": 1,
+      "message": "Kennt man als S2 Nutzer die Bedeutung von mDNIe?\nIch musste erst googeln um zu verstehen was das ist.",
+      "revId": "abee9dfe21ced3c3eec392969e81572d2dc0f731",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3//+jI\u003d",
+        "filename": "DeviceSettings/res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2012-10-12T00:10:48Z",
+      "side": 1,
+      "message": "Invertierte sollte groß geschrieben werden.\n\nOder du schreibst gleich: \"Farben invertieren an/aus\"",
+      "revId": "abee9dfe21ced3c3eec392969e81572d2dc0f731",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3//+i4\u003d",
+        "filename": "DeviceSettings/res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2012-10-12T00:10:48Z",
+      "side": 1,
+      "message": "Gamma-Wert?",
+      "revId": "abee9dfe21ced3c3eec392969e81572d2dc0f731",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3//+iw\u003d",
+        "filename": "DeviceSettings/res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2012-10-12T00:10:48Z",
+      "side": 1,
+      "message": "Birdschirm? Was machen denn die Vögel auf dem Schirm. :P",
+      "revId": "abee9dfe21ced3c3eec392969e81572d2dc0f731",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3//+jA\u003d",
+        "filename": "DeviceSettings/res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2012-10-12T00:10:48Z",
+      "side": 1,
+      "message": "Vielleicht ist \"horizontal\" besser als gerade?",
+      "revId": "abee9dfe21ced3c3eec392969e81572d2dc0f731",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3//+i8\u003d",
+        "filename": "DeviceSettings/res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2012-10-12T00:10:48Z",
+      "side": 1,
+      "message": "Vorschlag: Der Beschleunigungssensor wurde kalibriert.",
+      "revId": "abee9dfe21ced3c3eec392969e81572d2dc0f731",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
