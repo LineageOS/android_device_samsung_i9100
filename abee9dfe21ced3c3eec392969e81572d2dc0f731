@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAY3//+bE\u003d",
+        "filename": "DeviceSettings/res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 523
+      },
+      "writtenOn": "2012-10-12T14:07:36Z",
+      "side": 1,
+      "message": "Sollte bekannt sein.",
+      "parentUuid": "AAAAY3//+i0\u003d",
+      "revId": "abee9dfe21ced3c3eec392969e81572d2dc0f731",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAY3//+jI\u003d",
         "filename": "DeviceSettings/res/values-de/strings.xml",
         "patchSetId": 1
@@ -70,6 +88,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAY3//+bA\u003d",
+        "filename": "DeviceSettings/res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 523
+      },
+      "writtenOn": "2012-10-12T14:07:36Z",
+      "side": 1,
+      "message": "das Display ;-)",
+      "parentUuid": "AAAAY3//+iw\u003d",
+      "revId": "abee9dfe21ced3c3eec392969e81572d2dc0f731",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAY3//+jA\u003d",
         "filename": "DeviceSettings/res/values-de/strings.xml",
         "patchSetId": 1
@@ -81,6 +117,24 @@
       "writtenOn": "2012-10-12T00:10:48Z",
       "side": 1,
       "message": "Vielleicht ist \"horizontal\" besser als gerade?",
+      "revId": "abee9dfe21ced3c3eec392969e81572d2dc0f731",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3//+a8\u003d",
+        "filename": "DeviceSettings/res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 523
+      },
+      "writtenOn": "2012-10-12T14:07:36Z",
+      "side": 1,
+      "message": "Es geht hier um eine horizontale, ebene Fläche damit das mit der Kalibrierung auch was wird.",
+      "parentUuid": "AAAAY3//+jA\u003d",
       "revId": "abee9dfe21ced3c3eec392969e81572d2dc0f731",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
