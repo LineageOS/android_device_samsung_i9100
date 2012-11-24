@@ -31,8 +31,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=240
 
 # Packages
-PRODUCT_PACKAGES += \
-    GalaxyS2Settings
+#PRODUCT_PACKAGES += \
+#    GalaxyS2Settings
 
 # Sensors
 PRODUCT_PACKAGES += \
