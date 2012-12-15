@@ -61,10 +61,10 @@ done
 
 PRODUCT_PACKAGES += \\
 	libTVOut \\
+    libUMP \\
 	libfimc \\
 	libhdmi \\
 	libhdmiclient \\
-    libmediayamahaservice \\
 	libsecion
 
 PRODUCT_COPY_FILES += \\
@@ -111,6 +111,16 @@ LOCAL_MODULE_PATH := \$(TARGET_OUT)/lib
 include \$(BUILD_PREBUILT)
 
 include \$(CLEAR_VARS)
+LOCAL_MODULE := libUMP
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := system/lib/libUMP.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_PATH := \$(TARGET_OUT)/lib
+include \$(BUILD_PREBUILT)
+
+include \$(CLEAR_VARS)
 LOCAL_MODULE := libsecion
 LOCAL_MODULE_OWNER := samsung
 LOCAL_SRC_FILES := system/lib/libsecion.so
@@ -144,16 +154,6 @@ include \$(CLEAR_VARS)
 LOCAL_MODULE := libhdmiclient
 LOCAL_MODULE_OWNER := samsung
 LOCAL_SRC_FILES := system/lib/libhdmiclient.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := \$(TARGET_OUT)/lib
-include \$(BUILD_PREBUILT)
-
-include \$(CLEAR_VARS)
-LOCAL_MODULE := libmediayamahaservice
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := system/lib/libmediayamahaservice.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
