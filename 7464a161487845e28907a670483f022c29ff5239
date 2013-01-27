@@ -1,0 +1,10 @@
+Change-Id: I55a49dc0b03f3119ce083ce409c4b6bf07f2de1f
+Code-Review+2: Marco Brohet <therbom@gmail.com>
+Code-Review+1: Dmitriy Chermenev <chdiman86@gmail.com>
+Code-Review+1: Pavel Kirpichyov <pavel.kirpichyov@gmail.com>
+Verified+1: Cid
+Submitted-by: Marco Brohet <therbom@gmail.com>
+Submitted-at: Sun, 27 Jan 2013 10:50:33 -0800
+Reviewed-on: http://review.cyanogenmod.org/30884
+Project: CyanogenMod/android_device_samsung_i9100
+Branch: refs/heads/cm-10.1
