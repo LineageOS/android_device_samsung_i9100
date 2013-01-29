@@ -1,0 +1,10 @@
+Change-Id: I79230b71742264fbc161cd144e4a584e298dcd1f
+Code-Review+2: Danny Baumann <dannybaumann@web.de>
+Verified+1: Danny Baumann <dannybaumann@web.de>
+Code-Review+1: Jacob Müller <jacob.mueller.elz@gmail.com>
+Verified+1: Cid
+Submitted-by: Danny Baumann <dannybaumann@web.de>
+Submitted-at: Tue, 29 Jan 2013 00:26:42 -0800
+Reviewed-on: http://review.cyanogenmod.org/31122
+Project: CyanogenMod/android_device_samsung_i9100
+Branch: refs/heads/cm-10.1
