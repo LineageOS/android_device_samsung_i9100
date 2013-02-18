@@ -60,12 +60,11 @@ done
 # limitations under the License.
 
 PRODUCT_PACKAGES += \\
-	libTVOut \\
-	libfimc \\
-	libhdmi \\
-	libhdmiclient \\
-    libmediayamahaservice \\
-	libsecion
+    libTVOut \\
+    libfimc \\
+    libhdmi \\
+    libhdmiclient \\
+    libmediayamahaservice
 
 PRODUCT_COPY_FILES += \\
     vendor/__VENDOR__/__COMMON__/proprietary/system/lib/hw/camera.exynos4.so:system/lib/hw/vendor-camera.exynos4.so \\
@@ -104,16 +103,6 @@ include \$(CLEAR_VARS)
 LOCAL_MODULE := libTVOut
 LOCAL_MODULE_OWNER := samsung
 LOCAL_SRC_FILES := system/lib/libTVOut.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := \$(TARGET_OUT)/lib
-include \$(BUILD_PREBUILT)
-
-include \$(CLEAR_VARS)
-LOCAL_MODULE := libsecion
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := system/lib/libsecion.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
