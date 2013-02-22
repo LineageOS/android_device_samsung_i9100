@@ -31,7 +31,6 @@ for FILE in `cat proprietary-files.txt | grep -v ^# | grep -v ^$`; do
     fi
     adb pull /$FILE $DEVICEBASE/$FILE
 done
-adb pull /system/lib/hw/vendor-camera.exynos4.so $DEVICEBASE/system/lib/hw/camera.exynos4.so
 
 
 (cat << EOF) | sed s/__DEVICE__/$DEVICE/g | sed s/__VENDOR__/$VENDOR/g > $DEVICEMAKEFILE
