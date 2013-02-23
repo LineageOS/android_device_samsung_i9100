@@ -54,9 +54,6 @@ PRODUCT_COPY_FILES := \\
     vendor/__VENDOR__/__DEVICE__/proprietary/system/lib/libsecril-client.so:obj/lib/libsecril-client.so
 
 PRODUCT_COPY_FILES += \\
-    vendor/__VENDOR__/__DEVICE__/proprietary/system/lib/hw/camera.exynos4.so:system/lib/hw/vendor-camera.exynos4.so
-
-PRODUCT_COPY_FILES += \\
 EOF
 
 LINEEND=" \\"
