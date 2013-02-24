@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdX//7co\u003d",
+        "filename": "extract-files.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 3214
+      },
+      "writtenOn": "2013-02-24T04:49:20Z",
+      "side": 1,
+      "message": "Shall we need it? It\u0027s cause a build error for me.\n\nmake: *** No rule to make target `vendor/samsung/i9100/proprietary/system/lib/hw/camera.exynos4.so\u0027,\nneeded by `~/android/system/out/target/product/i9100/system/lib/hw/vendor-camera.exynos4.so\u0027.  Stop.",
+      "revId": "98cb0cfdb4681181c15ad560726cbb4fce73df2b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
