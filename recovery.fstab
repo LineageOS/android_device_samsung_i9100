@@ -10,4 +10,4 @@
 /preload 	ext4		/dev/block/mmcblk0p12
 
 /emmc		vfat		/dev/block/mmcblk0p11
-/sdcard		vfat		/dev/block/mmcblk1p1
+/sdcard		vfat		/dev/block/mmcblk1p1 fstype2=ext4
