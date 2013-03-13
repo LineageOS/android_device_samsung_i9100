@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX//8Lw\u003d",
+        "filename": "DeviceSettings/res/values-da/arrays.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 2809
+      },
+      "writtenOn": "2013-03-13T14:45:44Z",
+      "side": 1,
+      "message": "Kamera (Standard)",
+      "revId": "51d208929e761b4195419a57818a8a276e358656",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
