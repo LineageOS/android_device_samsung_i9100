@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX//2ac\u003d",
+        "filename": "DeviceSettings/res/values-pl/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 5622
+      },
+      "writtenOn": "2013-03-29T14:26:35Z",
+      "side": 1,
+      "message": "imo,\"Domy?lnie\" not \"domy?lnie\"",
+      "revId": "330bf8f2d2891c73964e060b8bbdb90797d8c5a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//2ag\u003d",
+        "filename": "DeviceSettings/res/values-pl/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 5622
+      },
+      "writtenOn": "2013-03-29T14:26:35Z",
+      "side": 1,
+      "message": "imo,\"Domy?lnie\" not \"domy?lnie\"",
+      "revId": "330bf8f2d2891c73964e060b8bbdb90797d8c5a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//2ak\u003d",
+        "filename": "DeviceSettings/res/values-pl/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 5622
+      },
+      "writtenOn": "2013-03-29T14:26:35Z",
+      "side": 1,
+      "message": "imo,\"Domy?lnie\" not \"domy?lnie\"",
+      "revId": "330bf8f2d2891c73964e060b8bbdb90797d8c5a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//2ao\u003d",
+        "filename": "DeviceSettings/res/values-pl/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 5622
+      },
+      "writtenOn": "2013-03-29T14:26:35Z",
+      "side": 1,
+      "message": "imo,\"Domy?lnie\" not \"domy?lnie\"",
+      "revId": "330bf8f2d2891c73964e060b8bbdb90797d8c5a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//2aw\u003d",
+        "filename": "DeviceSettings/res/values-pl/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 5622
+      },
+      "writtenOn": "2013-03-29T14:26:35Z",
+      "side": 1,
+      "message": "\"Default\"? a think \"Domy?lnie\"",
+      "revId": "330bf8f2d2891c73964e060b8bbdb90797d8c5a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//2as\u003d",
+        "filename": "DeviceSettings/res/values-pl/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 5622
+      },
+      "writtenOn": "2013-03-29T14:26:35Z",
+      "side": 1,
+      "message": "imo,\"Domy?lnie\" not \"domy?lnie\"",
+      "revId": "330bf8f2d2891c73964e060b8bbdb90797d8c5a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
