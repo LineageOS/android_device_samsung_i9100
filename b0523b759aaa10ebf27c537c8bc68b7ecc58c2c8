@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX//1aM\u003d",
+        "filename": "DeviceSettings/res/values-pl/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 5637
+      },
+      "writtenOn": "2013-03-31T14:24:09Z",
+      "side": 1,
+      "message": "maybe: \"czu?o?? ekranu dotykowego\"",
+      "revId": "b0523b759aaa10ebf27c537c8bc68b7ecc58c2c8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//1aQ\u003d",
+        "filename": "DeviceSettings/res/values-pl/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 5637
+      },
+      "writtenOn": "2013-03-31T14:24:09Z",
+      "side": 1,
+      "message": "\"Ustaw czu?o?? ekranu dotykowego\" will be better",
+      "revId": "b0523b759aaa10ebf27c537c8bc68b7ecc58c2c8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//1ao\u003d",
+        "filename": "DeviceSettings/res/values-pl/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 5637
+      },
+      "writtenOn": "2013-03-31T14:24:09Z",
+      "side": 1,
+      "message": "maybe: \"Czujniki\" ?",
+      "revId": "b0523b759aaa10ebf27c537c8bc68b7ecc58c2c8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//1aY\u003d",
+        "filename": "DeviceSettings/res/values-pl/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 5637
+      },
+      "writtenOn": "2013-03-31T14:24:09Z",
+      "side": 1,
+      "message": "\"U?ywaj danych z kalibracji\" sounds better, IMO",
+      "revId": "b0523b759aaa10ebf27c537c8bc68b7ecc58c2c8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//1aU\u003d",
+        "filename": "DeviceSettings/res/values-pl/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 5637
+      },
+      "writtenOn": "2013-03-31T14:24:09Z",
+      "side": 1,
+      "message": "same: \"U?ywaj danych z kalibracji\"",
+      "revId": "b0523b759aaa10ebf27c537c8bc68b7ecc58c2c8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
