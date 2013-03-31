@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAeX//1Wo\u003d",
+        "filename": "DeviceSettings/res/values-pl/arrays.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2013-03-31T17:09:36Z",
+      "side": 1,
+      "message": "\"domyslnie\" - letter \"d\" should be lowercase",
+      "revId": "b0523b759aaa10ebf27c537c8bc68b7ecc58c2c8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAeX//1aM\u003d",
         "filename": "DeviceSettings/res/values-pl/strings.xml",
         "patchSetId": 5
