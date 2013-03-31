@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAeX//1PU\u003d",
+        "filename": "DeviceSettings/res/values-pl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 5637
+      },
+      "writtenOn": "2013-03-31T22:16:01Z",
+      "side": 1,
+      "message": "IMO \"sceneria\" is better word than \"scenariusz\"",
+      "revId": "1278bd8c27ecb398c7d726a033b7c6ae579b55b0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAeX//1Pc\u003d",
         "filename": "DeviceSettings/res/values-pl/strings.xml",
         "patchSetId": 6
