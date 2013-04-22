@@ -30,13 +30,23 @@ PRODUCT_LOCALES += hdpi
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=240
 
+jerdog
+
 # Packages
 PRODUCT_PACKAGES += \
     GalaxyS2Settings
 
+b
+r
+o
+k
+e
+
 # Sensors
 PRODUCT_PACKAGES += \
     sensors.exynos4
+
+it
 
 # Keylayout
 PRODUCT_COPY_FILES += \
