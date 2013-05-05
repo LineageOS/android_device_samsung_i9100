@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Config. Galaxy S II</string>
+    <string name="app_name">Configurações avançadas</string>
     <string name="screen_colors_title">Cores</string>
     <string name="mdnie_scenario_title_head">Cenário</string>
     <string name="mdnie_scenario_summary_head">Define o Cenário mDNIe</string>
@@ -38,6 +38,6 @@
     <string name="accelerometer_dialog_message">O sensor foi calibrado com sucesso.</string>
     <string name="category_dock_title">Dock</string>
     <string name="dockaudio_subcat_title">Áudio</string>
-    <string name="use_dock_audio_title_head">Usar Áudio USB do Dock</string>
-    <string name="use_dock_audio_summary_head">Usar o áudio de saída passivo no dock</string>
+    <string name="use_dock_audio_title_head">Usar áudio USB do dock</string>
+    <string name="use_dock_audio_summary_head">Usar a saída de áudio passiva no dock</string>
 </resources>
