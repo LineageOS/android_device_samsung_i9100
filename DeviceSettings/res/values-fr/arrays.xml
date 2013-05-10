@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2013 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,8 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string-array name="mdnie_scenario_entries">
         <item>Caméra (Défaut)</item>
         <item>Vidéo</item>
@@ -36,7 +35,7 @@
         <item>Inversé</item>
     </string-array>
     <string-array name="mdnie_outdoor_entries">
-        <item>Désactiver (Défaut)</item>
+        <item>Désactivé (Défaut)</item>
         <item>Activer</item>
     </string-array>
     <string-array name="panel_gamma_entries">
@@ -52,7 +51,7 @@
         <item>100</item>
     </string-array>
     <string-array name="vibrator_intensity_entries">
-        <item>0%</item>
+        <item>Désactivé</item>
         <item>25%</item>
         <item>50% (Défaut)</item>
         <item>75%</item>
@@ -64,7 +63,7 @@
         <item>HSDPA + HSUPA</item>
     </string-array>
     <string-array name="touchkey_timeout_entries">
-        <item>Jamais</item>
+        <item>Désactivé</item>
         <item>1 seconde</item>
         <item>2 secondes</item>
         <item>3 secondes (Défaut)</item>
