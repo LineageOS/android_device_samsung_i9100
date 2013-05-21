@@ -4,8 +4,8 @@
         "target_path": "device/samsung/galaxys2-common"
     },
     {
-        "repository": "android_kernel_samsung_smdk4210",
-        "target_path": "kernel/samsung/smdk4210"
+        "repository": "android_kernel_samsung_smdk4412",
+        "target_path": "kernel/samsung/smdk4412"
     },
     {
         "repository": "android_hardware_samsung",

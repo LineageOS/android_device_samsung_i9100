@@ -32,7 +32,7 @@ public class TouchkeyTimeout extends ListPreference implements OnPreferenceChang
         this.setOnPreferenceChangeListener(this);
     }
 
-    private static final String FILE_TOUCHKEY_TIMEOUT = "/sys/class/sec/sec_touchkey/led_timeout";
+    private static final String FILE_TOUCHKEY_TIMEOUT = "/sys/class/sec/sec_touchkey/timeout";
 
     public static boolean isSupported() {
         return Utils.fileExists(FILE_TOUCHKEY_TIMEOUT);
