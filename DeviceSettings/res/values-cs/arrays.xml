@@ -16,36 +16,36 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string-array name="mdnie_scenario_entries">
-        <item>CyanogenMod (Standard)</item>
+        <item>CyanogenMod (výchozí)</item>
         <item>UI</item>
         <item>Video</item>
-        <item>Video warm</item>
-        <item>Video kalt</item>
-        <item>Kamera</item>
-        <item>Navigation</item>
-        <item>Gallerie</item>
+        <item>Video teplé</item>
+        <item>Video studené</item>
+        <item>Fotoaparát</item>
+        <item>Navigace</item>
+        <item>Galerie</item>
         <item>VT</item>
     </string-array>
 
     <string-array name="mdnie_mode_entries">
-        <item>Dynamisch</item>
-        <item>Standard (Standard)</item>
-        <item>Natürlich</item>
+        <item>Standardní (výchozí)</item>
+        <item>Dynamický</item>
+        <item>Přirozený</item>
         <item>Film</item>
     </string-array>
 
     <string-array name="mdnie_negative_entries">
-        <item>Normal</item>
-        <item>Invertiert</item>
+        <item>Normální</item>
+        <item>Inverzní</item>
     </string-array>
 
     <string-array name="mdnie_outdoor_entries">
-        <item>Deaktiviert</item>
-        <item>Aktiviert</item>
+        <item>Vypnuto (výchozí)</item>
+        <item>Zapnuto</item>
     </string-array>
 
     <string-array name="panel_gamma_entries">
-        <item>2.2 (Standard)</item>
+        <item>2.2 (výchozí)</item>
         <item>1.9</item>
     </string-array>
 
@@ -53,7 +53,7 @@
         <item>10</item>
         <item>20</item>
         <item>30</item>
-        <item>50 (Standard)</item>
+        <item>50 (výchozí)</item>
         <item>70</item>
         <item>100</item>
     </string-array>
@@ -61,25 +61,24 @@
     <string-array name="vibrator_intensity_entries">
         <item>0%</item>
         <item>25%</item>
-        <item>50% (Standard)</item>
+        <item>50% (výchozí)</item>
         <item>75%</item>
         <item>100%</item>
     </string-array>
 
     <string-array name="hspa_entries">
-        <item>Nur UMTS</item>
-        <item>Nur HSDPA</item>
+        <item>Pouze UMTS</item>
+        <item>Pouze HSDPA</item>
         <item>HSDPA + HSUPA</item>
     </string-array>
 
     <string-array name="touchkey_timeout_entries">
-            <item>Niemals</item>
-            <item>1 Sekunde</item>
-            <item>2 Sekunden</item>
-            <item>3 Sekunden (Standard)</item>
-            <item>4 Sekunden</item>
-            <item>5 Sekunden</item>
-            <item>6 Sekunden</item>
+        <item>Nikdy</item>
+        <item>1 sekunda</item>
+        <item>2 sekundy</item>
+        <item>3 sekundy (výchozí)</item>
+        <item>4 sekundy</item>
+        <item>5 sekund</item>
+        <item>6 sekund</item>
     </string-array>
-
 </resources>
