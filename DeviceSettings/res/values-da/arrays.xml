@@ -1,19 +1,20 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string-array name="mdnie_scenario_entries">
-        <item>Kamera (Standard)</item>
+        <item>CyanogenMod (Standard)</item>
+        <item>UI</item>
         <item>Video</item>
         <item>Varm Video</item>
         <item>Kold Video</item>
-        <item>UI</item>
+        <item>Kamera</item>
         <item>Navigation</item>
         <item>Galleri</item>
         <item>VT</item>
     </string-array>
 
    <string-array name="mdnie_mode_entries">
-        <item>Standard</item>
         <item>Dynamisk</item>
+        <item>Standard (Standard)</item>
         <item>Naturlig</item>
         <item>Film</item>
     </string-array>

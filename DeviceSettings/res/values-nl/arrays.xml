@@ -15,18 +15,19 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string-array name="mdnie_scenario_entries">
-        <item>Camera (standaard)</item>
+        <item>CyanogenMod (Standaard)</item>
+        <item>Uiterlijk</item>
         <item>Video</item>
         <item>Video (warm)</item>
         <item>Video (koud)</item>
-        <item>Uiterlijk</item>
+        <item>Camera</item>
         <item>Navigatie</item>
         <item>Galerij</item>
         <item>VT</item>
     </string-array>
     <string-array name="mdnie_mode_entries">
-        <item>Standaard</item>
         <item>Dynamisch</item>
+        <item>Standaard (Standaard)</item>
         <item>Natuurlijk</item>
         <item>Film</item>
     </string-array>
