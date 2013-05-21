@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string-array name="mdnie_scenario_entries">
-      <item>Câmera (Padrão)</item>
-      <item>Vídeo</item>
-      <item>Vídeo Quente</item>
-      <item>Vídeo Frio</item>
-      <item>IU</item>
-      <item>Navegação</item>
-      <item>Galeria</item>
-      <item>VT</item>
-  </string-array>
-  <string-array name="mdnie_mode_entries">
-      <item>Padrão</item>
-      <item>Dinâmico</item>
-      <item>Natural</item>
-      <item>Filme</item>
-  </string-array>
+    <string-array name="mdnie_scenario_entries">
+        <item>CyanogenMod (Padrão)</item>
+        <item>IU</item>
+        <item>Vídeo</item>
+        <item>Vídeo Quente</item>
+        <item>Vídeo Frio</item>
+        <item>Câmera</item>
+        <item>Navegação</item>
+        <item>Galeria</item>
+        <item>VT</item>
+    </string-array>
+
+    <string-array name="mdnie_mode_entries">
+        <item>Dinâmico</item>
+        <item>Padrão (Padrão)</item>
+        <item>Natural</item>
+        <item>Filme</item>
+    </string-array>
   <string-array name="mdnie_negative_entries">
       <item>Normal</item>
       <item>Invertido</item>

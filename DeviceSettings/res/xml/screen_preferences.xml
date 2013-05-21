@@ -12,7 +12,7 @@
 	        android:summary="@string/mdnie_scenario_summary_head"
 	        android:entries="@array/mdnie_scenario_entries"
   			android:entryValues="@array/mdnie_scenario_entries_values"
-  			android:defaultValue="4" />
+  			android:defaultValue="0" />
 
     <!-- mDNIe Mode -->
     <com.cyanogenmod.settings.device.mDNIeMode

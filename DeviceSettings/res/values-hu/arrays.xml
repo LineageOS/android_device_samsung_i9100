@@ -1,19 +1,20 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string-array name="mdnie_scenario_entries">
-        <item>Kamera (Alapbeállítás)</item>
+        <item>CyanogenMod (Alapbeállítás)</item>
+        <item>Felhasználói felület</item>
         <item>Videó</item>
         <item>Videó (Meleg árnyalat)</item>
         <item>Videó (Hideg árnyalat)</item>
-        <item>Felhasználói felület</item>
+        <item>Kamera</item>
         <item>Navigáció</item>
         <item>Galéria</item>
         <item>VT</item>
     </string-array>
 
     <string-array name="mdnie_mode_entries">
-        <item>Hagyományos (Alapbeállítás)</item>
         <item>Dinamikus</item>
+        <item>Hagyományos (Alapbeállítás)</item>
         <item>Természetes</item>
         <item>Film</item>
     </string-array>
