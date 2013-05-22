@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "iD25ey8",
+        "filename": "DeviceSettings/res/values-de/arrays.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2013-05-22T10:19:07Z",
+      "side": 1,
+      "message": "Galerie",
+      "revId": "5e4429ecf50559860a044a1ca92f3e169fcb1283",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "iB22tz0",
+        "filename": "DeviceSettings/res/values-de/arrays.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2013-05-22T10:19:07Z",
+      "side": 1,
+      "message": "das sieht komisch aus. :D",
+      "revId": "5e4429ecf50559860a044a1ca92f3e169fcb1283",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
