@@ -30,10 +30,6 @@ PRODUCT_LOCALES += hdpi
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=240
 
-# Packages
-PRODUCT_PACKAGES += \
-    DeviceSettings
-
 # Sensors
 PRODUCT_PACKAGES += \
     sensors.exynos4
