@@ -157,4 +157,6 @@
     <!-- Disable the home key unlock setting -->
     <bool name="config_disableHomeUnlockSetting">false</bool>
 
+    <!-- Home button wake support -->
+    <bool name="config_show_homeWake">true</bool>
 </resources>
