@@ -210,6 +210,9 @@ sensors_poll_context_t::~sensors_poll_context_t() {
 int sensors_poll_context_t::activate(int handle, int enabled) {
     int index = handleToDriver(handle);
     if (index < 0) return index;
+    if (index == gyro && enabled == 0) {
+        usleep(200*1000);
+    }
     int err =  mSensors[index]->enable(handle, enabled);
     if (enabled && !err) {
         const char wakeMessage(WAKE_MESSAGE);
@@ -311,7 +314,7 @@ static int open_sensors(const struct hw_module_t* module, const char* id,
         memset(&dev->device, 0, sizeof(sensors_poll_device_t));
 
         dev->device.common.tag = HARDWARE_DEVICE_TAG;
-        dev->device.common.version  = 0;
+        dev->device.common.version  = SENSORS_DEVICE_API_VERSION_0_1;
         dev->device.common.module   = const_cast<hw_module_t*>(module);
         dev->device.common.close    = poll__close;
         dev->device.activate        = poll__activate;
