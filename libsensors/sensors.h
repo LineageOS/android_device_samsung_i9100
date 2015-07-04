@@ -123,7 +123,7 @@ __BEGIN_DECLS
 #define CONVERT_M_Z                 (CONVERT_M)
 
 /* conversion of orientation data to degree units */
-#define CONVERT_O                   (1.0f/1000.0f)
+#define CONVERT_O                   (1.0f/64.0f)
 #define CONVERT_O_A                 (CONVERT_O)
 #define CONVERT_O_P                 (CONVERT_O)
 #define CONVERT_O_R                 (CONVERT_O)
