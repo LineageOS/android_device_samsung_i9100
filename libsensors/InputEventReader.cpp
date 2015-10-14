@@ -18,6 +18,7 @@
 #include <errno.h>
 #include <unistd.h>
 #include <poll.h>
+#include <cstring>
 
 #include <sys/cdefs.h>
 #include <sys/types.h>

@@ -22,6 +22,7 @@
 #include <dirent.h>
 #include <sys/select.h>
 #include <dlfcn.h>
+#include <cstring>
 
 #include "ak8973b.h"
 
