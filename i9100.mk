@@ -30,6 +30,9 @@ PRODUCT_LOCALES += hdpi
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=240
 
+# Netmgr dependency on libstlport
+PRODUCT_PACKAGES +=  libstlport
+
 # Sensors
 PRODUCT_PACKAGES += \
     sensors.exynos4
