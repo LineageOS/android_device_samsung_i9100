@@ -52,12 +52,13 @@
 #define SENSORS_PROXIMITY        (1<<ID_P)
 #define SENSORS_GYROSCOPE        (1<<ID_GY)
 
-#define SENSORS_ACCELERATION_HANDLE     0
-#define SENSORS_MAGNETIC_FIELD_HANDLE   1
-#define SENSORS_ORIENTATION_HANDLE      2
-#define SENSORS_LIGHT_HANDLE            3
-#define SENSORS_PROXIMITY_HANDLE        4
-#define SENSORS_GYROSCOPE_HANDLE        5
+#define SENSORS_ACCELERATION_HANDLE       0
+#define SENSORS_MAGNETIC_FIELD_HANDLE     1
+#define SENSORS_ORIENTATION_HANDLE        2
+#define SENSORS_LIGHT_HANDLE              3
+#define SENSORS_PROXIMITY_HANDLE          4
+#define SENSORS_GYROSCOPE_HANDLE          5
+#define SENSORS_SIGNIFICANT_MOTION_HANDLE 6
 
 #define AKM_FTRACE 0
 #define AKM_DEBUG 0
@@ -91,6 +92,24 @@ static const struct sensor_t sSensorList[] = {
           "STMicroelectronics",
           1, SENSORS_GYROSCOPE_HANDLE,
           SENSOR_TYPE_GYROSCOPE, RANGE_GYRO, CONVERT_GYRO, 6.1f, 1190, 0, 0,},
+        {
+		.name = "Movement Detection sensor",
+		.vendor = "STMicroelectronics",
+		.version = 1,
+		.handle = SENSORS_SIGNIFICANT_MOTION_HANDLE,
+		.type = SENSOR_TYPE_SIGNIFICANT_MOTION,
+		.maxRange = 1.0f,
+		.resolution = 1.0f,
+		.power = 0.01f,
+		.minDelay = 0,
+		.fifoReservedEventCount = 0,
+		.fifoMaxEventCount = 0,
+		.stringType = SENSOR_STRING_TYPE_SIGNIFICANT_MOTION,
+		.requiredPermission = 0,
+		.maxDelay = 0,
+		.flags = SENSOR_FLAG_ONE_SHOT_MODE | SENSOR_FLAG_WAKE_UP,
+		.reserved = {}
+	    },
 };
 
 
@@ -152,6 +171,7 @@ private:
             case ID_A:
             case ID_M:
             case ID_O:
+            case ID_SM:
                 return akm;
             case ID_P:
                 return proximity;
