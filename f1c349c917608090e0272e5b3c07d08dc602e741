@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dfbec78f_4c4bcf86",
+        "filename": "libsensors/AkmSensor.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 259,
+      "author": {
+        "id": 11409
+      },
+      "writtenOn": "2016-03-14T10:08:33Z",
+      "side": 1,
+      "message": "Leave the getTimestamp() outside the loop like the original.",
+      "revId": "f1c349c917608090e0272e5b3c07d08dc602e741",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
