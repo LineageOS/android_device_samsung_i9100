@@ -30,9 +30,6 @@ PRODUCT_LOCALES += hdpi
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=240
 
-# BLN
-BOARD_HAS_BLN := true
-
 # Proprietary blobs dependency on libstlport
 PRODUCT_PACKAGES +=  libstlport
 
