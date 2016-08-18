@@ -7,3 +7,6 @@ rild.libargs=-d /dev/ttyS0
 
 # By default, primary storage is physical
 ro.vold.primary_physical=1
+
+dalvik.vm.dex2oat-swap=false
+
