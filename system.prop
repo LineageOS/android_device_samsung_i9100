@@ -10,3 +10,5 @@ media.stagefright.legacyencoder=true
 
 # By default, primary storage is physical
 ro.vold.primary_physical=1
+
+config.disable_atlas=true
