@@ -10,3 +10,6 @@ media.stagefright.legacyencoder=true
 
 # By default, primary storage is physical
 ro.vold.primary_physical=1
+
+# EGL blobs crash on screen off
+ro.egl.destroy_after_detach=true
