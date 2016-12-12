@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_9c2e4441",
+        "filename": "libsensors/AkmSensor.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2016-12-12T11:16:47Z",
+      "side": 1,
+      "message": "extra whitespace (also repeated throughout the file, please fix)",
+      "revId": "bce88ae5c1da4c8f4739bf97bd89a1d30e7a8c15",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f681702_3cfe10ae",
+        "filename": "libsensors/AkmSensor.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 311,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2016-12-12T11:16:47Z",
+      "side": 1,
+      "message": "use spaces not tabs",
+      "revId": "bce88ae5c1da4c8f4739bf97bd89a1d30e7a8c15",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
