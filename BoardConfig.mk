@@ -29,7 +29,7 @@ BOARD_HAS_BLN := true
 
 # Inline kernel building
 TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
-TARGET_KERNEL_CONFIG := cyanogenmod_i9100_defconfig
+TARGET_KERNEL_CONFIG := lineageos_i9100_defconfig
 
 # assert
 TARGET_OTA_ASSERT_DEVICE := galaxys2,i9100,GT-I9100,GT-I9100M,GT-I9100P,GT-I9100T,SC-02C
