@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa3479d7_8c18bb85",
+        "filename": "lineage.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-01-04T13:02:25Z",
+      "side": 1,
+      "message": "change this to lineage_i9100",
+      "revId": "742211f488faac9ab34465a5a7ed71ba5d617e3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
