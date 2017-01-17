@@ -33,6 +33,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Proprietary blobs dependency on libstlport
 PRODUCT_PACKAGES +=  libstlport
 
+# Use Emulated Storage (requires re-PIT)
+TARGET_USES_EMULATED_STORAGE := y
+
 # Sensors
 PRODUCT_PACKAGES += \
     sensors.exynos4
