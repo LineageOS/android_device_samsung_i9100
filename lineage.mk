@@ -21,6 +21,9 @@ PRODUCT_RELEASE_NAME := GT-I9100
 TARGET_SCREEN_HEIGHT := 800
 TARGET_SCREEN_WIDTH := 480
 
+#SU
+WITH_SU := true
+
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
