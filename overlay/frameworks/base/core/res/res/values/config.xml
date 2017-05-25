@@ -173,4 +173,6 @@
     <!-- Disable the home key unlock setting -->
     <!-- <bool name="config_disableHomeUnlockSetting">false</bool> -->
 
+    <!-- Enable button brightness -->
+    <bool name="config_deviceHasVariableButtonBrightness">true</bool>
 </resources>

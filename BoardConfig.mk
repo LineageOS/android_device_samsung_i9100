@@ -24,6 +24,9 @@ TARGET_BOARD_INFO_FILE := device/samsung/i9100/board-info.txt
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/i9100/bluetooth
 
+# Touchkeys
+BOARD_HAS_VAR_TOUCHKEY_BRIGHTNESS := true
+
 # BLN
 BOARD_HAS_BLN := true
 
