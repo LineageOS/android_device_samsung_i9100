@@ -28,7 +28,7 @@
 #define PANEL_BRIGHTNESS_NODE "/sys/class/backlight/panel/brightness"
 #define PANEL_MAX_BRIGHTNESS_NODE "/sys/class/backlight/panel/max_brightness"
 #define BUTTON_BRIGHTNESS_NODE "/sys/class/sec/sec_touchkey/brightness"
-#define LED_BLINK_NODE "/sys/class/sec/led/led_blink"
+#define LED_BLINK_NODE "/sys/class/misc/backlightnotification/led_blink"
 #define LED_BLN_NODE "/sys/class/misc/backlightnotification/notification_led"
 
 // Set to 1 to enable variable button brightness
@@ -51,8 +51,8 @@
  * LED is too bright). Use these values to adjust the brightness of each
  * light. This value is within the range 0-255.
  */
-#define LED_BRIGHTNESS_BATTERY 255
-#define LED_BRIGHTNESS_NOTIFICATION 255
+#define LED_BRIGHTNESS_BATTERY 25
+#define LED_BRIGHTNESS_NOTIFICATION 200
 #define LED_BRIGHTNESS_ATTENTION 255
 
 #endif // SAMSUNG_LIGHTS_H
