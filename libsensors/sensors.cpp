@@ -70,27 +70,33 @@ static const struct sensor_t sSensorList[] = {
         { "KR3DM 3-axis Accelerometer",
           "STMicroelectronics",
           1, SENSORS_ACCELERATION_HANDLE,
-          SENSOR_TYPE_ACCELEROMETER, RANGE_A, CONVERT_A, 0.23f, 20000, 0, 0,},
+          SENSOR_TYPE_ACCELEROMETER, RANGE_A, CONVERT_A, 0.23f, 20000, 0, 0,
+          "", "", 0, 0, {0, 0},},
         { "AK8975 3-axis Magnetic field sensor",
           "Asahi Kasei Microdevices",
           1, SENSORS_MAGNETIC_FIELD_HANDLE,
-          SENSOR_TYPE_MAGNETIC_FIELD, 2000.0f, CONVERT_M, 6.8f, 16667, 0, 0,},
+          SENSOR_TYPE_MAGNETIC_FIELD, 2000.0f, CONVERT_M, 6.8f, 16667, 0, 0,
+          "", "", 0, 0, {0, 0}},
         { "AK8973 Orientation sensor",
           "Asahi Kasei Microdevices",
           1, SENSORS_ORIENTATION_HANDLE,
-          SENSOR_TYPE_ORIENTATION, 360.0f, CONVERT_O, 7.8f, 16667, 0, 0,},
+          SENSOR_TYPE_ORIENTATION, 360.0f, CONVERT_O, 7.8f, 16667, 0, 0,
+          "", "", 0, 0, {0, 0}},
         { "CM3663 Light sensor",
           "Capella Microsystems",
           1, SENSORS_LIGHT_HANDLE,
-          SENSOR_TYPE_LIGHT, 10240.0f, 1.0f, 0.75f, 0, 0, 0,},
+          SENSOR_TYPE_LIGHT, 10240.0f, 1.0f, 0.75f, 0, 0, 0,
+          "", "", 0, 0, {0, 0},},
         { "CM3663 Proximity sensor",
           "Capella Microsystems",
           1, SENSORS_PROXIMITY_HANDLE,
-          SENSOR_TYPE_PROXIMITY, 5.0f, 5.0f, 0.75f, 0, 0, 0,},
+          SENSOR_TYPE_PROXIMITY, 5.0f, 5.0f, 0.75f, 0, 0, 0,
+          "", "", 0, SENSOR_FLAG_WAKE_UP | SENSOR_FLAG_ON_CHANGE_MODE, {0, 0},},
         { "K3G Gyroscope sensor",
           "STMicroelectronics",
           1, SENSORS_GYROSCOPE_HANDLE,
-          SENSOR_TYPE_GYROSCOPE, RANGE_GYRO, CONVERT_GYRO, 6.1f, 1190, 0, 0,},
+          SENSOR_TYPE_GYROSCOPE, RANGE_GYRO, CONVERT_GYRO, 6.1f, 1190, 0, 0,
+          "", "", 0, 0, {0, 0},},
 };
 
 
@@ -123,14 +129,15 @@ struct sensors_module_t HAL_MODULE_INFO_SYM = {
 };
 
 struct sensors_poll_context_t {
-    struct sensors_poll_device_t device; // must be first
+    sensors_poll_device_1_t device; // must be first
 
         sensors_poll_context_t();
         ~sensors_poll_context_t();
     int activate(int handle, int enabled);
     int setDelay(int handle, int64_t ns);
     int pollEvents(sensors_event_t* data, int count);
-
+    int batch(int handle, int flags, int64_t period_ns, int64_t timeout);
+    int flush(int handle);
 private:
     enum {
         light           = 0,
@@ -273,10 +280,22 @@ int sensors_poll_context_t::pollEvents(sensors_event_t* data, int count)
 
     return nbEvents;
 }
+int sensors_poll_context_t::batch(int handle, int flags, int64_t period_ns, int64_t timeout) {
+    int index = handleToDriver(handle);
+    if (index < 0) return index;
 
+    return mSensors[index]->batch(handle, flags, period_ns, timeout);
+}
+
+int sensors_poll_context_t::flush(int handle) {
+    int index = handleToDriver(handle);
+    if (index < 0) return index;
+
+    return mSensors[index]->flush(handle);
+}
 /*****************************************************************************/
 
-static int poll__close(struct hw_device_t *dev)
+static int device__close(struct hw_device_t *dev)
 {
     sensors_poll_context_t *ctx = (sensors_poll_context_t *)dev;
     if (ctx) {
@@ -285,22 +304,33 @@ static int poll__close(struct hw_device_t *dev)
     return 0;
 }
 
-static int poll__activate(struct sensors_poll_device_t *dev,
+static int device__activate(sensors_poll_device_t *dev,
         int handle, int enabled) {
     sensors_poll_context_t *ctx = (sensors_poll_context_t *)dev;
     return ctx->activate(handle, enabled);
 }
 
-static int poll__setDelay(struct sensors_poll_device_t *dev,
+static int device__setDelay(sensors_poll_device_t *dev,
         int handle, int64_t ns) {
     sensors_poll_context_t *ctx = (sensors_poll_context_t *)dev;
     return ctx->setDelay(handle, ns);
 }
 
-static int poll__poll(struct sensors_poll_device_t *dev,
+static int device__poll(sensors_poll_device_t *dev,
         sensors_event_t* data, int count) {
     sensors_poll_context_t *ctx = (sensors_poll_context_t *)dev;
     return ctx->pollEvents(data, count);
+}
+
+static int device__batch(struct sensors_poll_device_1 *dev, int handle,
+        int flags, int64_t period_ns, int64_t timeout) {
+    sensors_poll_context_t* ctx = (sensors_poll_context_t*) dev;
+    return ctx->batch(handle, flags, period_ns, timeout);
+}
+
+static int device__flush(struct sensors_poll_device_1 *dev, int handle) {
+    sensors_poll_context_t* ctx = (sensors_poll_context_t*) dev;
+    return ctx->flush(handle);
 }
 
 /*****************************************************************************/
@@ -312,15 +342,17 @@ static int open_sensors(const struct hw_module_t* module, const char* id,
         int status = -EINVAL;
         sensors_poll_context_t *dev = new sensors_poll_context_t();
 
-        memset(&dev->device, 0, sizeof(sensors_poll_device_t));
+        memset(&dev->device, 0, sizeof(sensors_poll_device_1_t));
 
-        dev->device.common.tag = HARDWARE_DEVICE_TAG;
-        dev->device.common.version  = SENSORS_DEVICE_API_VERSION_0_1;
+        dev->device.common.tag      = HARDWARE_DEVICE_TAG;
+        dev->device.common.version  = SENSORS_DEVICE_API_VERSION_1_3;
         dev->device.common.module   = const_cast<hw_module_t*>(module);
-        dev->device.common.close    = poll__close;
-        dev->device.activate        = poll__activate;
-        dev->device.setDelay        = poll__setDelay;
-        dev->device.poll            = poll__poll;
+        dev->device.common.close    = device__close;
+        dev->device.activate        = device__activate;
+        dev->device.setDelay        = device__setDelay;
+        dev->device.poll            = device__poll;
+        dev->device.batch           = device__batch;
+        dev->device.flush           = device__flush;
 
         *device = &dev->device.common;
         status = 0;
