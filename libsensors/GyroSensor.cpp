@@ -122,6 +122,18 @@ int GyroSensor::setDelay(int32_t handle, int64_t delay_ns)
     return -1;
 }
 
+int GyroSensor::batch(int handle, int flags, int64_t period_ns, int64_t timeout)
+{
+    (void)flags;
+    (void)timeout;
+    return setDelay(handle, period_ns);
+}
+
+int GyroSensor::flush(int handle)
+{
+    return 0;
+}
+
 int GyroSensor::readEvents(sensors_event_t* data, int count)
 {
     if (count < 1)

@@ -65,6 +65,21 @@ int ProximitySensor::setInitialState() {
     return 0;
 }
 
+int ProximitySensor::setDelay(int32_t handle, int64_t ns)
+{
+    return 0;
+}
+
+int ProximitySensor::batch(int handle, int flags, int64_t period_ns, int64_t timeout)
+{
+    return 0;
+}
+
+int ProximitySensor::flush(int handle)
+{
+    return 0;
+}
+
 int ProximitySensor::enable(int32_t, int en) {
     int flags = en ? 1 : 0;
     if (flags != mEnabled) {
