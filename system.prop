@@ -7,8 +7,6 @@ rild.libargs=-d /dev/ttyS0
 ro.ril.telephony.mqanelements=5
 ro.ril.telephony.nstrings=4
 
-media.stagefright.legacyencoder=true
-
 # By default, primary storage is physical
 ro.vold.primary_physical=1
 
