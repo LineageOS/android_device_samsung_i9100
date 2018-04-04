@@ -2,7 +2,7 @@
 # system.prop for i9100
 #
 
-rild.libpath=/system/lib/libsecril-shim.so
+rild.libpath=/vendor/lib/libsecril-shim.so
 rild.libargs=-d /dev/ttyS0
 ro.ril.telephony.mqanelements=5
 ro.ril.telephony.nstrings=4
