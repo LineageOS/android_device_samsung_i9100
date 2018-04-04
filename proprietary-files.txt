@@ -1,4 +1,4 @@
-system/lib/libsec-ril.so 
-system/lib/libsecril-client.so 
-system/lib/hw/gps.exynos4.vendor.so
-system/lib/libakm.so
+vendor/lib/libsec-ril.so
+vendor/lib/libsecril-client.so
+vendor/lib/hw/gps.exynos4.vendor.so
+vendor/lib/libakm.so
