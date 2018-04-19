@@ -15,6 +15,8 @@
  * limitations under the License.
  */
 
+#define LOG_TAG "AkmSensor"
+
 #include <fcntl.h>
 #include <errno.h>
 #include <math.h>
@@ -140,18 +142,14 @@ AkmSensor::~AkmSensor()
 int AkmSensor::enable(int32_t handle, int en)
 {
     int what = -1;
-
-    switch (handle) {
-        case ID_A: what = Accelerometer; break;
-        case ID_M: what = MagneticField; break;
-        case ID_O: what = Orientation;   break;
-    }
-
-    if (uint32_t(what) >= numSensors)
-        return -EINVAL;
-
     int newState  = en ? 1 : 0;
     int err = 0;
+
+    switch (handle) {
+        case SENSORS_ACCELERATION_HANDLE: what = Accelerometer; break;
+        case SENSORS_MAGNETIC_FIELD_HANDLE: what = MagneticField; break;
+        case SENSORS_ORIENTATION_HANDLE: what = Orientation;   break;
+    }
 
     if ((uint32_t(newState)<<what) != (mEnabled & (1<<what))) {
         uint32_t sensor_type;
@@ -177,6 +175,8 @@ int AkmSensor::enable(int32_t handle, int en)
 
 int AkmSensor::setDelay(int32_t handle, int64_t ns)
 {
+    ALOGD("%s: handle:%d ns:%ll", __func__, handle, ns);
+
     int what = -1;
     uint32_t sensor_type = 0;
 
@@ -215,7 +215,9 @@ int AkmSensor::update_delay()
             }
         }
         short delay = int64_t(wanted) / 1000000;
+        ALOGD("%s: delay:%d", __func__, delay);
         if (ioctl(dev_fd, ECS_IOCTL_APP_SET_DELAY, &delay)) {
+            ALOGE("%s: err:%d", __func__, -errno);
             return -errno;
         }
     }
@@ -341,5 +343,6 @@ void AkmSensor::processEvent(int code, int value)
 }
 
 int AkmSensor::batch(int handle, int flags, int64_t period_ns, int64_t timeout) {
-    return 0;
+    ALOGD("%s: handle:%d flags:%d period_ns:%ll timeout:%ll", __func__, handle, flags, period_ns, timeout);
+    return 0;//setDelay(handle, period_ns);
 }

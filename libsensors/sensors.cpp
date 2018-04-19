@@ -52,13 +52,6 @@
 #define SENSORS_PROXIMITY        (1<<ID_P)
 #define SENSORS_GYROSCOPE        (1<<ID_GY)
 
-#define SENSORS_ACCELERATION_HANDLE     0
-#define SENSORS_MAGNETIC_FIELD_HANDLE   1
-#define SENSORS_ORIENTATION_HANDLE      2
-#define SENSORS_LIGHT_HANDLE            3
-#define SENSORS_PROXIMITY_HANDLE        4
-#define SENSORS_GYROSCOPE_HANDLE        5
-
 #define AKM_FTRACE 0
 #define AKM_DEBUG 0
 #define AKM_DATA 0
@@ -156,15 +149,15 @@ private:
 
     int handleToDriver(int handle) const {
         switch (handle) {
-            case ID_A:
-            case ID_M:
-            case ID_O:
+            case SENSORS_ACCELERATION_HANDLE:
+            case SENSORS_MAGNETIC_FIELD_HANDLE:
+            case SENSORS_ORIENTATION_HANDLE:
                 return akm;
-            case ID_P:
+            case SENSORS_PROXIMITY_HANDLE:
                 return proximity;
-            case ID_L:
+            case SENSORS_LIGHT_HANDLE:
                 return light;
-            case ID_GY:
+            case SENSORS_GYROSCOPE_HANDLE:
                 return gyro;
         }
         return -EINVAL;
