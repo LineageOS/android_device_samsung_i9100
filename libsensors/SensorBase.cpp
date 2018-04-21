@@ -14,8 +14,6 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "SensorBase"
-
 #include <fcntl.h>
 #include <errno.h>
 #include <math.h>
@@ -77,13 +75,11 @@ int SensorBase::getFd() const {
 }
 
 int SensorBase::setDelay(int32_t handle, int64_t ns) {
-    ALOGD("%s: handle:%d ns:%d", __func__, handle, ns);
     return 0;
 }
 
 int SensorBase::batch(int handle, int flags, int64_t period_ns, int64_t timeout)
 {
-    ALOGD("%s: handle:%d flags:%d period_ns:%ll timeout:%ll", __func__, handle, flags, period_ns, timeout);
     (void)flags;
     (void)timeout;
     return setDelay(handle, period_ns);

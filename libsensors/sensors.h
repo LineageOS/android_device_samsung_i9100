@@ -40,13 +40,6 @@ __BEGIN_DECLS
 #define ID_P  (4)
 #define ID_GY (5)
 
-#define SENSORS_ACCELERATION_HANDLE     0
-#define SENSORS_MAGNETIC_FIELD_HANDLE   1
-#define SENSORS_ORIENTATION_HANDLE      2
-#define SENSORS_LIGHT_HANDLE            3
-#define SENSORS_PROXIMITY_HANDLE        4
-#define SENSORS_GYROSCOPE_HANDLE        5
-
 /*****************************************************************************/
 
 /*
