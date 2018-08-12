@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_i9100.mk
+    $(LOCAL_DIR)/lineage_i9100.mk
