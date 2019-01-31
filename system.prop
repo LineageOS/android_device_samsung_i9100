@@ -7,9 +7,6 @@ rild.libargs=-d /dev/ttyS0
 ro.ril.telephony.mqanelements=5
 ro.ril.telephony.nstrings=4
 
-# By default, primary storage is physical
-ro.vold.primary_physical=1
-
 # EGL blobs crash on screen off
 ro.egl.destroy_after_detach=true
 
