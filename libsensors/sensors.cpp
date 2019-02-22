@@ -16,6 +16,7 @@
 
 #define ALOG_TAG "Sensors"
 
+#include <android/api-level.h>
 #include <hardware/sensors.h>
 #include <fcntl.h>
 #include <errno.h>
@@ -110,7 +111,6 @@ static const struct sensor_t sSensorList[] = {
 
 static int open_sensors(const struct hw_module_t* module, const char* id,
                         struct hw_device_t** device);
-
 
 static int sensors__get_sensors_list(struct sensors_module_t* module,
                                      struct sensor_t const** list) 
@@ -370,11 +370,16 @@ static int device__flush(struct sensors_poll_device_1 *dev, int handle) {
 }
 
 /*****************************************************************************/
+extern "C" {
+extern uint32_t android_get_application_target_sdk_version();
+extern void android_set_application_target_sdk_version(uint32_t target);
+}
 
 /** Open a new instance of a sensor device using name */
 static int open_sensors(const struct hw_module_t* module, const char* id,
                         struct hw_device_t** device)
 {
+        android_set_application_target_sdk_version(__ANDROID_API_L_MR1__);
         int status = -EINVAL;
         sensors_poll_context_t *dev = new sensors_poll_context_t();
 
