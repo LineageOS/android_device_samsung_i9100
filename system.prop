@@ -9,6 +9,3 @@ ro.ril.telephony.nstrings=4
 
 # EGL blobs crash on screen off
 ro.egl.destroy_after_detach=true
-
-# We need fuse
-ro.sys.sdcard_fuse=1
